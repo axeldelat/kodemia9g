@@ -24,7 +24,10 @@ nav {
 section {
     float: left;
     width: 60%;
+<<<<<<< HEAD
     min-height: 90vh;
+=======
+>>>>>>> 2553282eb71311ecaf51ca97cade50aea592b251
     background-color: #6699FF;
     margin-bottom: 32px;
 }
@@ -37,7 +40,10 @@ aside {
     float: right;
     width: 37%;
     background-color: #F7819F;
+<<<<<<< HEAD
     min-height: 70vh;
+=======
+>>>>>>> 2553282eb71311ecaf51ca97cade50aea592b251
 }
 
 footer{

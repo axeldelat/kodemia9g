@@ -24,6 +24,7 @@ nav {
 section {
     float: left;
     width: 60%;
+    min-height: 90vh;
     background-color: #6699FF;
     margin-bottom: 32px;
 }
@@ -36,6 +37,7 @@ aside {
     float: right;
     width: 37%;
     background-color: #F7819F;
+    min-height: 70vh;
 }
 
 footer{

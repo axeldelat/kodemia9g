@@ -32,6 +32,7 @@ section {
 article {
     background-color: #F5A9E1;
     margin: 24px;
+    min-height: 18vh;
 }
 
 aside {

@@ -1,0 +1,49 @@
+/*Esto es un comentario krnal*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    border: solid 4px #FE2F65;
+    margin: 2px;
+    padding: 32px;
+}
+
+header {
+    margin-bottom: 32px;
+    background-color: #66FFFF;
+    padding-bottom: 2px;
+}
+
+nav {
+    background-color: #DF01D7;
+    margin:4px 30px;
+    min-height: 32px;
+}
+
+section {
+    float: left;
+    width: 60%;
+    background-color: #6699FF;
+    margin-bottom: 32px;
+}
+
+article {
+    background-color: #F5A9E1;
+}
+
+aside {
+    float: right;
+    width: 37%;
+    background-color: #F7819F;
+}
+
+footer{
+    
+    bottom: 0;
+    background-color: #CECEF6 ;
+    clear: both;
+    margin-top: 32px;
+}
+
+

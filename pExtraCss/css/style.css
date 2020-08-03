@@ -1,3 +1,7 @@
+/*
+General rules
+*/
+
 *{
     font-family: 'DM Sans', sans-serif;
 }
@@ -7,18 +11,170 @@ body {
     padding: 0;
 }
 
+.btn {
+    padding: 10px 14px;
+    background-color: #75A37C;
+    border-radius: 2px;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+/*
+header rules
+*/
+
+
 header {
     background-color: #18181A;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+}
+
+nav{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav li {
     display: inline;
+    padding: 10px;
+}
+
+nav li:hover {
+    color: #E28952;
+}
+
+#contact-us {
+    margin:0 10px ;
+}
+
+#contact-us:hover{
+    color: white;
+}
+
+#search {
+    font-size: 14px;
+}
+
+/*
+Main Rules
+*/
+
+main {
+    padding: 20px;
+}
+
+.title {
+    width: 100%;
+    font-size: 24px;
+}
+
+.line {
+    width: 40%;
+    border-bottom: 6px solid #D1A761;
+}
+
+.content{
+    display: flex;
+}
+
+.content section {
+    width: 66%;
+}
+
+.content aside {
+    width: 33%;
+}
+
+/*
+Main Rules
+Section
+*/
+
+.text {
+    margin-top: 30px;
+}
+
+.text p,ol,#author-box p{
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+
+#author-box {
+    display: flex;
+    display: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#author-box img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+#author-box p{
+    padding: 30px;
+    border-left: 6px solid #D1A761;
+}
+
+
+
+/*
+Main Rules
+Aside
+*/
+
+aside{
+    margin: 0 0 0 30px;
+}
+
+
+#opt-in-form{
+    color: white;
+    background-color: #3D527F;
+    margin-top: 20px;
+    padding: 20px 50px 50px 20px;  
+}
+
+aside input,select{
+    border-radius: 2px;
+    width: 100%;
+    display: inline-block;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 20px;
+    height: 2em;
+}
+
+aside label,p {
+    font-size: .85em;
+}
+
+aside p {
+    margin-bottom: 40px;
+}
+
+aside .required {
+    color: #EF3835;
+}
+
+aside #submit-btn {
+    color: white;
+    font-size: .85em;
+    padding: 10px 14px;
+    height: 3em;
 }

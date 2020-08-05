@@ -52,7 +52,6 @@ nav{
 
 nav ul {
     list-style-type: none;
-    
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -70,7 +69,6 @@ nav li {
 nav li:hover {
     color: #E28952;
     border-bottom: 2px solid #E28952;
-    
 }
 
 #contact-us {
@@ -80,7 +78,6 @@ nav li:hover {
 
 #contact-us:hover{
     color: white;
-    
 }
 
 #search {
@@ -169,7 +166,7 @@ aside{
     color: white;
     background-color: #3D527F;
     margin-top: 20px;
-    padding: 20px 40px 40px 20px;  
+    padding: 20px 40px 40px 20px;
 }
 
 aside input,select{

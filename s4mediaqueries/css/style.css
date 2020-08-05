@@ -1,0 +1,27 @@
+/* Estilos Mobiles */
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 500ms ease;
+}
+
+
+/* Estilo tablet */
+
+@media only screen and ( min-width: 768px) {
+    .square {
+        background-color: royalblue;
+        transform: scale(.5);
+    }
+}
+
+@media only screen and ( min-width: 1200px ) {
+    .square {
+        background-color: sienna;
+        border-radius: 50%;
+        transform: scale(.2);
+    }
+}
+

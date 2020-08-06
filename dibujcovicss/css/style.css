@@ -1,0 +1,196 @@
+/* General */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ACEBE2;
+    margin: 0;
+    padding: 0;
+}
+
+.light-green {
+    background-color: #ACEBE2;
+}
+
+.dark-green {
+    background-color: #98D7CE;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side{
+    width: 400px;
+    height: 400px;
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right Side */
+
+.right-sidecopy {
+    background-image: url(../images/covid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    left: 568px;
+    opacity: .4;
+}
+
+.right-side{
+    z-index:;
+    width: 400px;
+    height: 400px;
+    background-color: snow;
+}
+
+.main-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: 180;
+}
+
+.moon {
+    z-index: 11;
+    background-color: rgba(67,92,89,.0);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 84px;
+    top: -100px;
+    box-shadow: 16px 0px #98D7CE;
+}
+
+.three-circles {
+    z-index: 30;
+    position: relative;
+    left: 52px;
+    top: 62px;
+}
+
+.c1 {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+.c2 {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.c3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 78px;
+    top: -74px;
+}
+
+
+.corona {
+    z-index: 40;
+    position: relative;
+    top: -250px;
+    left: 250px;
+}
+.small-circle {
+    z-index: 41;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: -9px;
+}
+
+.stick {
+    height: 64px;
+    width: 18px;
+    border-radius: 18px;
+}
+
+#paliboli1 {
+    position: relative;
+    left: 194px;
+    top: -374px;
+}
+
+#paliboli2 {
+    position: relative;
+    left: 120px;
+    top: -162px;
+    transform: rotate(90deg);
+}
+
+#paliboli3 {
+    position: relative;
+    left: -188px;
+    top: -325px;
+    transform: rotate(180deg);
+}
+
+#paliboli4 {
+    position: relative;
+    left: -130px;
+    top: -737px;
+    transform: rotate(270deg);
+}
+
+.corona20 {
+    z-index: 9;
+    position: relative;
+    top: -518px;
+    transform: rotate(45deg);
+    left: -280px;
+}
+
+#paliboli5 {
+    position: relative;
+    left: 194px;
+    top: -374px;
+}
+
+#paliboli6 {
+    position: relative;
+    left: 120px;
+    top: -162px;
+    transform: rotate(90deg);
+}
+
+#paliboli7 {
+    position: relative;
+    left: -188px;
+    top: -325px;
+    transform: rotate(180deg);
+}
+
+#paliboli8 {
+    position: relative;
+    left: -130px;
+    top: -737px;
+    transform: rotate(270deg);
+}

@@ -1,0 +1,26 @@
+
+header{
+    background-color: #00F3FF;
+}
+
+nav{
+    background-color: #FF00F7;
+}
+
+section {
+    background-color: #1E7CBE;
+    height: 450px;
+}
+
+article {
+    background-color: #FFBBAB;
+}
+
+aside {
+    height: 450px;
+    background-color: #D67761;
+}
+
+footer {
+    background-color: #D48EFF;
+}

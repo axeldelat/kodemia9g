@@ -1,0 +1,16 @@
+section {
+  background-color: #f3f3f3;
+  border-radius: 2px;
+  width: 33%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section img {
+  height: 100%;
+}
+
+section div {
+  width: 70%;
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
